@@ -1,0 +1,98 @@
+.navbar {
+	margin: 0 auto;
+	margin-left: 190px;
+	height: 125px;
+	width: 900px;
+	text-align: center;
+	position: fixed;
+	background-color: #144141;
+	opacity: .7;
+	top: 0;
+	font-family: baskerville,'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	z-index: 1;
+	transition: 1s;
+}
+
+.buttonnav {
+	height: 45px;
+	width: 200px;
+	margin: 10px 20px 0px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #072D2D;
+	font-size: 35px;
+	background-color: #803A3A;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.navbar:hover{
+	opacity:1;
+}
+
+.buttonnav:after {
+	opacity: 0;
+	font-style: italic;
+	right: -20px;
+	transition: 0.5s;
+	color: #F4C539;
+}
+
+.buttonnav:hover {
+	padding-right: 30px;
+	color: #537C7C;
+}
+
+.buttonnav:hover:after {
+	opacity: 1;
+	right: 0;
+}
+
+body {
+	background-image: url("images/index.jpg");
+	background-attachment: fixed;
+	width:100%;
+	margin: 0 auto;
+
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #803A3A;
+	height: 1080px;
+	margin-top: -20px;
+}
+
+#container h1 {
+	text-align: center;
+	position: absolute;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	top: 150px;
+	left: 480px;
+	font-size:40px;
+}
+
+#container img {
+	width: 400px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	position: relative;
+	top: 275px;
+	border-radius: 18px;
+}
+
+#container p{
+	position: relative;
+	top: 275px;
+	margin-left: 10px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+

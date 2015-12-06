@@ -1,0 +1,151 @@
+.navbar {
+	margin: 0 auto;
+	height: 180px;
+	width: 59.3%;
+	text-align: center;
+	position: fixed;
+	background-color: #144141;
+	opacity: .7;
+	top: 0;
+	font-family: baskerville,'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	z-index: 1;
+}
+
+.buttonnav {
+	height: 45px;
+	width: 200px;
+	margin: 10px 20px 0px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #072D2D;
+	font-size: 35px;
+	background-color: #803A3A;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.buttonnav:after {
+	opacity: 0;
+	font-style: italic;
+	right: -20px;
+	transition: 0.5s;
+	color: #F4C539;
+}
+
+.buttonnav:hover {
+	padding-right: 30px;
+	color: #537C7C;
+}
+
+.buttonnav:hover:after {
+	opacity: 1;
+	right: 0;
+}
+
+body {
+	background-color: #082E2E;
+}
+
+#left {
+	width: 60%;
+	background-color: #823B3B;
+	height: 2000px;
+	float: left;
+}
+
+#right {
+	width: 35%;
+	background-color: #2C3957;
+	float: right;
+	height: 1080px;
+}
+
+#left h1 {
+
+	position: absolute;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:40px;
+	position: absolute;
+	top: 160px;
+	left: 250px;
+}
+
+.eyefive h3 {
+
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:30px;
+
+}
+
+.eyefive {
+	position: absolute;
+	top: 80px;
+	left: -180px;
+
+}
+
+.eyefive iframe{
+	border-radius: 24px;
+}
+
+.nohair {
+	position: absolute;
+	top: 550px;
+	left: -180px;
+}	
+
+.nohair video {
+	border-radius: 24px;
+}
+
+.molloy {
+	position: absolute;
+	top: 1100px;
+	left: -180px;
+}
+
+.molloy iframe {
+	border-radius: 24px;
+}
+
+#right h1 {
+	position: absolute;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:40px;
+	position: absolute;
+	top: 140px;
+	right: 60px;
+}
+
+
+.sixers {
+	position: absolute;
+	top: 255px;
+	right: 30px;
+}
+
+.sixers h3 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:30px;
+}
+
+.sixers img {
+	width: 250px;
+	opacity: .5;
+	transition: 1s;
+	padding-left: 50px;
+	border-radius: 24px;
+}
+
+.sixers img:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+

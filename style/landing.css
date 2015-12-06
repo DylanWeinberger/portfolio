@@ -1,0 +1,44 @@
+body{
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+}
+
+
+
+
+#container h1 {
+
+	font-size: 60px;
+	position: absolute;
+	left: 400px;
+	top: 100px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+#container h3 {
+	font-size: 55px;
+	position: absolute;
+	left: 575px;
+	top: 150px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+	color: #585858;
+	opacity: .1;
+	transition: all 3s;
+}
+
+
+a:hover {
+	opacity: 1;
+}
+
+
+
+#container {
+	background-color:rgba(192,192,192,0.3);
+	width: 550px;
+}
