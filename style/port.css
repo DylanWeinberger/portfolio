@@ -59,7 +59,7 @@ body {
 	width: 35%;
 	background-color: #2C3957;
 	float: right;
-	height: 1080px;
+	height: 2000px;
 }
 
 #left h1 {
@@ -121,9 +121,9 @@ body {
 
 
 .sixers {
-	position: absolute;
+	position: relative;
 	top: 255px;
-	right: 30px;
+	right: -20px;
 }
 
 .sixers h3 {
@@ -143,8 +143,74 @@ body {
 	opacity: 1;
 }
 
+.cantina {
+	position: relative;
+	top: 300px;
+	left: 50px;
+}
 
+.cantina h3 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:30px;
+}
 
+.cantina img{
+	width: 330px;
+	border-radius: 20px;
+	left: 75px;
+	opacity: .7;
+	transition: 1s;
+}
+
+.cantina img:hover {
+	opacity: 1;
+}
+
+.calculator {
+	position: relative;
+	top: 300px;
+	left: 50px;
+}
+
+.calculator h3 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:30px;
+}
+
+.calculator img{
+	width: 200px;
+	border-radius: 20px;
+	/*left: px;*/
+	opacity: .7;
+	transition: 1s;
+}
+
+.calculator img:hover {
+	opacity: 1;
+}
+
+.elevator {
+	position: relative;
+	top: 300px;
+	left: 50px;
+}
+
+.elevator h3 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size:30px;
+}
+
+.elevator img{
+	width: 300px;
+	border-radius: 20px;
+	/*left: px;*/
+	opacity: .7;
+	transition: 1s;
+}
+
+.elevator img:hover {
+	opacity: 1;
+}
 
 
 
